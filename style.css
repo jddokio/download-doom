@@ -1,0 +1,76 @@
+#face {
+  width: 50px;
+  height: 50px;
+  background-image: url(face.png);
+  background-size: 50px 50px;
+  position: relative;
+  left: 800px;
+  top: 50px;
+  animation: krug 1s infinite linear;
+}
+.redbg {
+  background-color: red;
+}
+.text {
+  position:relative;
+  left: 20px;
+}
+.body1 {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.download {
+    text-decoration: none;
+    border: black solid 2px;
+    width: 13.5%;
+    display: inline-block;
+    line-height: 2;
+    text-align: center;
+    background-color: lime;
+    color: black;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    font-size: 30px;
+}
+.download:hover {
+  background-color: yellow;
+  width: 15%;
+  line-height: 2.5;
+}
+.text2 {
+  position: relative;
+  top: 170px;
+}
+.screenshots {
+  position: relative;
+  top: 170px;
+  left: 230px;
+  padding-bottom: 50px
+}
+.download:active {
+  background-color: red;
+  color: white;
+}
+@keyframes krug {
+  0% {top: 50px; left: 800px}
+  25% {top: -100px; left: 800px}
+  50% {left: 1050px; top: -100px}
+  75% {top: 50px; left: 1050px}
+  100% {left: 800px}
+}
+.gba {
+  position: relative;
+  top: 200px;
+  left: 50px;
+  font-size: 20px;
+  background-color: #f0db73;
+  width: 6%;
+  transition: 0.3s;
+}
+.gba:hover {
+  color: black;
+  background-color: #ebd22f;
+
+}
